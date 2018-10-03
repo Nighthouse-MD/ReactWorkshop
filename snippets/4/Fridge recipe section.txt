@@ -1,0 +1,21 @@
+
+                <Divider />
+                <Row>
+                    <div className="section">
+                        {this.state.recipesLoading ?
+                            <LinearProgress /> :
+                            <Row>
+                                <Typography variant="title">
+                                    Recipes:
+                            </Typography>
+                                <Grid container spacing={24} style={{ padding: 24 }}>
+                                    {this.state.recipeModels.map((recipeModel, i) => (
+                                        <Grid key={"recipe" + i} item xs={12} sm={6} lg={4} xl={3}>
+                                            <RecipeCard recipeModel={recipeModel} />
+                                        </Grid>
+                                    ))}
+                                </Grid>
+                            </Row>
+                        }
+                    </div>
+                </Row>

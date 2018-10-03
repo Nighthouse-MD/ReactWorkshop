@@ -21,10 +21,7 @@ const FoodCard = (props) => {
                         </Typography>
                     </CardContent>
                     <CardActions>
-                        {/* <Button size="small" color="primary" href={`https://www.google.com/search?q=recipes+with+${props.foodModel.name}`} target="_blank">
-                            Recipes with {props.foodModel.name}
-                        </Button> */}
-                        <Button onClick={props.onClickLoadRecipesForFoodName} name={props.foodModel.name} size="small" color="primary">
+                        <Button onClick={props.onClickLoadRecipesForFood} name={props.foodModel.name} size="small" color="primary">
                             Recipes with {props.foodModel.name}
                         </Button>
                     </CardActions>
@@ -35,8 +32,8 @@ const FoodCard = (props) => {
 }
 
 FoodCard.propTypes = {
-    foodModel: PropTypes.node,
-    onClickLoadRecipesForFoodName: PropTypes.func
+    foodModel: PropTypes.object,
+    onClickLoadRecipesForFood: PropTypes.func
 };
 
 //add prop checking

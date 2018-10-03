@@ -1,0 +1,13 @@
+
+    componentDidMount() {
+        // this.setState({
+        //     recipesLoading: true
+        // });
+
+        RecipeApi.getRandom().then((result) => {
+            this.setState({
+                recipeModels: result.data,
+                // recipesLoading: false
+            });
+        });
+    }

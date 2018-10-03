@@ -1,0 +1,13 @@
+
+    onClickLoadRecipesForFood = (name) => {
+        this.setState({
+            recipesLoading: true
+        });
+
+        RecipeApi.get(name).then((result) => {
+            this.setState({
+                recipeModels: result.data,
+                recipesLoading: false
+            });
+        });
+    }
