@@ -1,0 +1,24 @@
+
+                <h1>React Fridge Tracker</h1>
+		<h2>Add food</h2>
+                <input type='text' name='name' />
+                <br />
+                <input type='text' name='amount' />
+                <br />
+                <button>Add Food</button>
+
+                <h2>Food in the Fridge</h2>
+                <table>
+                    <tr>
+                        <th>Food</th>
+                        <th>Amount</th>
+                    </tr>
+                    <tr>
+                        <td>Banana</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>Tomato</td>
+                        <td>3</td>
+                    </tr>
+                </table>

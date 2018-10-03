@@ -1,0 +1,12 @@
+import React, { Component } from 'react';
+import PropTypes from "prop-types";
+
+const COMPONENTNAME = (props) => {
+    return "";
+}
+
+COMPONENTNAME.PropTypes = {
+    xxxxx: PropTypes.string
+}
+
+export default COMPONENTNAME;
