@@ -1,3 +1,6 @@
+Questions?
+mxm.deschamps@gmail.com
+
 usefull urls:
 
 https://nodejs.org/en/
