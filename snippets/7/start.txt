@@ -1,0 +1,2 @@
+npm install enzyme enzyme-adapter-react-16
+npm install sinon
