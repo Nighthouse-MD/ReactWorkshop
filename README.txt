@@ -1,7 +1,7 @@
 Questions?
 mxm.deschamps@gmail.com
 
-usefull urls:
+useful urls:
 
 https://nodejs.org/en/
 https://git-scm.com/
