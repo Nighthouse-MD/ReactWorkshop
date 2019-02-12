@@ -30,3 +30,23 @@ My VSCode settings (ctrl + shift + p)
     "files.trimTrailingWhitespace": true,
     "javascript.updateImportsOnFileMove.enabled": "never"
 }
+
+
+6 redux
+
+setup store
+setup actions, reducers
+
+connect Welcome to store
+create onClick handler
+
+connect NavBar to store
+
+7 test
+
+install dependencies
+create Fridge test
+
+always create small testable components
+always try to extract logic to pure js files for easy testing
+avoid testing js or react itself
