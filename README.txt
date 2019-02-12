@@ -1,4 +1,7 @@
-usefull urls:
+Questions?
+mxm.deschamps@gmail.com
+
+useful urls:
 
 https://nodejs.org/en/
 https://git-scm.com/
