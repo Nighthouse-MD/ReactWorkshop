@@ -12,9 +12,7 @@ const RecipeCard = (props) => {
         <div>
             {model ? (
                 <Card>
-                    <CardMedia src={model.imageUrl} >
-                        <img src={model.imageUrl} style={{ width: 'auto', height: '200px' }} alt="Not found" />
-                    </CardMedia>
+                    <img src={model.imageUrl} style={{ width: 'auto', height: '200px' }} alt="Not found" />
                     <CardContent>
                         <Typography gutterBottom variant="headline" component="h2">
                             {model.name}
